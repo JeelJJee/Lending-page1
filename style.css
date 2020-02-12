@@ -1,0 +1,245 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	font-family: Tahoma, sans-serif;
+	line-height:  1.4;
+	color :#333333;
+}
+.section{
+	padding: 3% 7%;
+}
+.header{
+	text-align: center;
+	font-size: 24px;
+	z-index: 3;
+}
+.header span{
+	z-index: 3;
+	display: block;  /* блочный */
+	font-weight: 400;
+}
+.header strong{
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.main{
+	margin-top: 5%;
+}
+.video, .form{
+	display: inline-block; 
+	text-align: center;
+	vertical-align: top; /* Выравниваниее по верх. вертикальной линии*/
+}
+.form-header{
+	font-weight: 900;
+	font-size: 20px;
+	margin-bottom: 20px;
+
+}
+.form{
+	margin-left: 7%;
+	text-align: center;
+	width: 550px;
+	height: 309px;
+	border: 2px solid blue;
+	padding: 20px;
+}
+
+.form input{
+	text-align: center;
+	width: 505px;
+	display: block;
+	font-size: 18px;
+	padding:  20px;
+	border: 1px solid #333;
+	margin-top: 20px;
+}
+.form button{
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 900;
+	color: #fff;
+	background-color: blue;
+	border: none;
+	width: 250px;
+	height: 55px;
+}
+.feature-header{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 24px;
+}
+.col{
+	display: inline-block;
+	text-align: center;
+	margin-left: 13%;
+	padding-top: 5%;
+}
+.feature-btn{
+	border-radius: 10px;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 900;
+	color: #fff;
+	background-color: blue;
+	border: none;
+	width: 250px;
+	height: 55px;
+	display: block;
+	margin: 50px auto; 
+}
+.info{
+	display: block;
+	border: 1px solid #222;
+	text-align: center;
+	padding: 1%;
+	margin-left: 40px;
+	margin-top: 50px;
+	margin-right: 40px;
+}
+.menu ul{
+	display: inline-flex; /* убрал ненужную полоску под кнопками */
+	overflow: hidden;
+  	border-radius: 40px;
+  	background-color: blue;
+  	margin-bottom: 5%;
+  	margin-left: 25%;
+  	z-index: 1;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a {
+	color : #000000;
+	font-size: 18px;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    height: 100%;
+    padding: 25px;
+    text-decoration: none;
+}
+
+}
+.info p{
+	font-family: Tahoma, sans-serif;
+	line-height:  1.1;
+	color : #333333;
+	font-size: 18px;
+	margin: 10px;
+}
+footer #p0{
+	display: block;
+	text-align: center;
+	margin-bottom: 5px;
+	}
+footer #p1{
+	display: block;
+	text-align: center;
+	margin-bottom: 5px;
+}
+footer #p2{
+	display: block;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.text2{
+	margin-left: 30%;
+}
+.about_us{
+	margin: 5%;
+	padding: 5%;
+	border: 1px solid #222;
+}
+.about_us h3{
+	display: inline-block;
+	margin: 1%;
+	padding: 1%;
+	background-color: blue;
+}
+.offers{
+	margin: 5%;
+	padding: 5%;
+	border: 1px solid #222;
+}
+.offers h4{
+	display: inline-block;
+	margin: 1%;
+	padding: 1%;
+	background-color: blue;
+}
+.offers ul{
+	list-style-type: circle;
+}
+.contacts{
+	margin: 5%;
+	padding: 5%;
+	border: 1px solid #222;
+}
+.contacts ul{
+	list-style-type: circle;
+	margin-bottom: 10px;
+	margin-left: 25px;
+}
+.contacts h5{
+	display: inline-block;
+	margin: 1%;
+	padding: 1%;
+	background-color: blue;
+	margin-bottom: 15px;
+}
+.map{
+	
+	margin-top: 5px;
+	margin right: 5px;
+}
+.gallery{
+	border: 1px solid #222;
+	margin: 5%;
+}
+.gallery .gallery_picture
+{
+
+	margin-left: 10%;
+
+
+}
+.gallery img{
+	display: inline-block;
+	width: 25%;
+	height: 25%;
+	margin: 2%;
+}
+.hidden{
+	display: none;
+
+
+}
+.gallery_picture .p{
+	display: block;
+	font-family: Tahoma, sans-serif;
+	line-height:  1.4;
+	color :#333333;
+	font-size: 18px;
+}
+.gallery .show{
+	
+	position: relative;
+
+	width: auto;
+	height: auto;
+}
+.timer{
+	border: 1px solid #333;
+	margin: 5%;
+	padding: 5%;
+	padding-left: 35%; 
+}
+.timer-numbers{
+	font-family: Tahoma, sans-serif;
+	line-height:  1.4;
+	color :#333333;
+	font-size: 50px;
+}
